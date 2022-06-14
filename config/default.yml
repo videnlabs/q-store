@@ -2,20 +2,20 @@ server:
   port: 3000
   basePath: ''
 application:
-  domain: juice-sh.op
-  name: 'OWASP Juice Shop'
+  domain: qstore.viden.com
+  name: 'Viden QStore'
   logo: JuiceShop_Logo.png
   favicon: favicon_js.ico
-  theme: bluegrey-lightgreen # Options: bluegrey-lightgreen blue-lightblue deeppurple-amber indigo-pink pink-bluegrey purple-green deeporange-indigo
+  theme: blue-lightblue # Options: bluegrey-lightgreen blue-lightblue deeppurple-amber indigo-pink pink-bluegrey purple-green deeporange-indigo
   showVersionNumber: true
   showGitHubLinks: true
   localBackupEnabled: true
-  numberOfRandomFakeUsers: 0
-  altcoinName: Juicycoin
-  privacyContactEmail: donotreply@owasp-juice.shop
-  customMetricsPrefix: juiceshop
+  numberOfRandomFakeUsers: 20
+  altcoinName: VidCoin
+  privacyContactEmail: security@viden.com
+  customMetricsPrefix: viden
   chatBot:
-    name: 'Juicy'
+    name: ''
     greeting: "Nice to meet you <customer-name>, I'm <bot-name>"
     trainingData: 'botDefaultTrainingData.json'
     defaultResponse: "Sorry I couldn't understand what you were trying to say"
@@ -35,11 +35,11 @@ application:
     title: 'Welcome to OWASP Juice Shop!'
     message: "<p>Being a web application with a vast number of intended security vulnerabilities, the <strong>OWASP Juice Shop</strong> is supposed to be the opposite of a best practice or template application for web developers: It is an awareness, training, demonstration and exercise tool for security risks in modern web applications. The <strong>OWASP Juice Shop</strong> is an open-source project hosted by the non-profit <a href='https://owasp.org' target='_blank'>Open Web Application Security Project (OWASP)</a> and is developed and maintained by volunteers. Check out the link below for more information and documentation on the project.</p><h1><a href='https://owasp-juice.shop' target='_blank'>https://owasp-juice.shop</a></h1>"
   cookieConsent:
-    backgroundColor: '#546e7a'
+    backgroundColor: '#012c5d'
     textColor: '#ffffff'
-    buttonColor: '#558b2f'
+    buttonColor: '#3099ea'
     buttonTextColor: '#ffffff'
-    message: 'This website uses fruit cookies to ensure you get the juiciest tracking experience.'
+    message: 'This website uses cookies to ensure preferences are preserved in this application'
     dismissText: 'Me want it!'
     linkText: 'But me wait!'
     linkUrl: 'https://www.youtube.com/watch?v=9PnbKL3wuH4'
